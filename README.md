@@ -10,8 +10,10 @@ If you want to reproduce them you can make a copy of this colab and save it. The
 Question-1:
 Finding path between two pixels with coordinates (x1,y1) and (x2,y2).
 Run all cells below Q1 one by one in the colab.
-The function paths(I,x1,y1,x2,y2,path_type) is the main function
-  where, I=input image
+
+Here I=input image is predefine in first cell and it can be changes there
+The function paths(x1,y1,x2,y2,path_type) is the main function
+  where, 
          x1=x-coordinate of start pixel
          y1=y-coordinate of start pixel
          x2=x-coordinate of goal pixel
@@ -19,9 +21,6 @@ The function paths(I,x1,y1,x2,y2,path_type) is the main function
          path_type=4 for 4 connected paths
                    8 for 8 connected paths
                    10 for m connected paths
-
-It give output of a dictionary containing all possibel paths between two given pixels.
-Then from we can select the shortest path and also calculate the lengths of the paths.
 
 
 Question-3:
