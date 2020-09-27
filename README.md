@@ -1,7 +1,11 @@
 # DIP_CCLab_Path_Disc
 Digital Image Processing Assignment 1
 
-The outputs are already there in the colab. If you want to reproduce them you can make a copy of this colab and save it. Then run according to below instructions.
+The outputs are already there in the colab.
+
+If the preview doesn't appear in the colab please download the .ipynb file and upload it to your drive and then open it in the colab. 
+
+If you want to reproduce them you can make a copy of this colab and save it. Then run according to below instructions.
 
 Question-1:
 Finding path between two pixels with coordinates (x1,y1) and (x2,y2).
